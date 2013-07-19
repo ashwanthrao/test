@@ -1,0 +1,112 @@
+
+venu@ASHWANTH-PC /c/GIT/ASW (master)
+$ cd c:
+
+venu@ASHWANTH-PC /c
+$ cd GIT/
+
+venu@ASHWANTH-PC /c/GIT (master)
+$ cd test/
+
+venu@ASHWANTH-PC /c/GIT/test
+$ git init
+Initialized empty Git repository in c:/GIT/test/.git/
+
+venu@ASHWANTH-PC /c/GIT/test (master)
+$ git add ASW_Phase_1.docx
+
+venu@ASHWANTH-PC /c/GIT/test (master)
+$ git add *
+
+venu@ASHWANTH-PC /c/GIT/test (master)
+$ git commit -m "ASW doc"
+[master (root-commit) 3e7c39c] ASW doc
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 ASW_Phase_1.docx
+
+venu@ASHWANTH-PC /c/GIT/test (master)
+$ git push orgin master
+fatal: 'orgin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+venu@ASHWANTH-PC /c/GIT/test (master)
+$ git remote add orgin https://github.com/ashwanthrao/test.git
+
+venu@ASHWANTH-PC /c/GIT/test (master)
+$ git push orgin master
+Username for 'https://github.com': ashwanthrao
+Password for 'https://ashwanthrao@github.com':
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 43.01 KiB | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/ashwanthrao/test.git
+ * [new branch]      master -> master
+
+
+venu@ASHWANTH-PC /c/GIT/test (master)
+$ git status
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#       modified:   ASW_Phase_1.docx
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+
+venu@ASHWANTH-PC /c/GIT/test (master)
+$ git diff
+diff --git a/ASW_Phase_1.docx b/ASW_Phase_1.docx
+index 8371e56..a328941 100644
+--- a/ASW_Phase_1.docx
++++ b/ASW_Phase_1.docx
+@@ -2,7 +2,7 @@
+ Steps  1:  Load the Excel into application. Below a screen shot of Excel sheet.
+
+ Step 2:
+-GUI design should be editable format. It should be similar to below Screen shot
++GUI design should be editable format. It should be similar to below Screen shot
+
+ Step 3:
+-Program should read the rows in the excel sheet Using XL ROW Column in the abov
++Program should read the rows in the excel sheet Using XL Row Column in the abov
+
+venu@ASHWANTH-PC /c/GIT/test (master)
+$ git commit -m "modified"
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#       modified:   ASW_Phase_1.docx
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+
+venu@ASHWANTH-PC /c/GIT/test (master)
+$ git add .
+
+venu@ASHWANTH-PC /c/GIT/test (master)
+$ git commit -m "modified"
+[master 19ce745] modified
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+
+venu@ASHWANTH-PC /c/GIT/test (master)
+$ git push orgin master
+Username for 'https://github.com': ashwanthrao
+Password for 'https://ashwanthrao@github.com':
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 5.57 KiB | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To https://github.com/ashwanthrao/test.git
+   3e7c39c..19ce745  master -> master
+
+venu@ASHWANTH-PC /c/GIT/test (master)
+$
