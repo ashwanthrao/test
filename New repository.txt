@@ -1,12 +1,12 @@
 Step to create repository
 
-venu@ASHWANTH-PC /c/GIT/ASW (master)
+1.venu@ASHWANTH-PC /c/GIT/ASW (master)
 $ cd c:
 
-venu@ASHWANTH-PC /c
+2.venu@ASHWANTH-PC /c
 $ cd GIT/
 
-venu@ASHWANTH-PC /c/GIT (master)
+3.venu@ASHWANTH-PC /c/GIT (master)
 $ cd test/
 
 venu@ASHWANTH-PC /c/GIT/test
