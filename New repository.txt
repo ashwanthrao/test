@@ -1,3 +1,4 @@
+Step to create repository
 
 venu@ASHWANTH-PC /c/GIT/ASW (master)
 $ cd c:
